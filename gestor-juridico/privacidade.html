@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de Privacidade — Gestor Jurídico</title><link rel="stylesheet" href="estilo.css"></head><body>
+<header><a href="./">Gestor Jurídico</a><nav><a href="./">Início</a><a href="privacidade.html">Política de Privacidade</a><a href="termos.html">Termos de Uso</a></nav></header>
+<main>
+<h1>Política de Privacidade</h1>
+<p><em>Última atualização: 23 de outubro de 2026</em></p>
+<p>Esta política explica quais dados o Gestor Jurídico (“o programa”) trata, como e por quê, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
+
+<h2>1. Onde os dados ficam</h2>
+<p>O Gestor Jurídico roda no computador do escritório. Os dados cadastrados (usuários, clientes, pastas, processos, compromissos, prazos, publicações e arquivos) são gravados em um banco de dados local, nesse computador ou no servidor que o próprio escritório escolher. Não mantemos cópia desses dados em servidores nossos.</p>
+
+<h2>2. Dados tratados</h2>
+<ul>
+<li><strong>Cadastro de usuários:</strong> nome, e-mail, número de inscrição na OAB e UF, e senha (guardada apenas em forma criptografada).</li>
+<li><strong>Dados do escritório:</strong> clientes, partes, processos, documentos e compromissos que os próprios usuários cadastram.</li>
+<li><strong>Publicações:</strong> o programa consulta a API pública do DJEN (Conselho Nacional de Justiça) pelo número da OAB do usuário para trazer as intimações publicadas.</li>
+<li><strong>Chave de IA (opcional):</strong> se o escritório cadastrar uma chave própria da Anthropic, o texto das peças enviadas para análise é transmitido à API da Anthropic somente quando o usuário pede a análise.</li>
+</ul>
+
+<h2>3. Dados de usuário do Google</h2>
+<p>A integração com o Google Agenda é opcional e só é ativada quando o usuário clica em “Conectar Google Agenda” e autoriza o acesso na tela do Google.</p>
+<p><strong>Permissões solicitadas:</strong></p>
+<ul>
+<li><code>openid</code> e <code>email</code> — para identificar qual conta Google foi conectada e exibir esse e-mail ao usuário;</li>
+<li><code>https://www.googleapis.com/auth/calendar.events</code> — para criar, atualizar e excluir no Google Agenda do usuário os eventos correspondentes aos compromissos, audiências e prazos cadastrados no programa.</li>
+</ul>
+<p><strong>Como usamos:</strong> quando o usuário cadastra, altera, remarca ou exclui um compromisso no Gestor Jurídico, o programa faz a mesma alteração no evento correspondente do calendário principal do usuário. O programa só manipula os eventos que ele mesmo criou; ele não lê, lista, altera ou exclui outros eventos da agenda do usuário.</p>
+<p><strong>O que guardamos:</strong> no banco de dados local do escritório ficam guardados apenas o e-mail da conta Google conectada, o token de atualização (refresh token) concedido pelo Google e o identificador de cada evento criado pelo programa. Nenhum desses dados é enviado para servidores nossos ou de terceiros.</p>
+<p><strong>Compartilhamento:</strong> os dados de usuário do Google não são vendidos, compartilhados, transferidos a terceiros, usados para publicidade nem usados para treinar modelos de inteligência artificial.</p>
+<p><strong>Revogação e exclusão:</strong> o usuário pode desconectar o Google a qualquer momento em <em>Minha Conta</em>, no próprio programa, o que remove do Google Agenda os eventos criados pelo programa e apaga o token e o e-mail do banco de dados local. O acesso também pode ser revogado em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+<p>O uso e a transferência, para qualquer outro aplicativo, de informações recebidas das APIs do Google seguirão a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+<h2>4. Segurança</h2>
+<p>A comunicação com o Google, o DJEN e a Anthropic é feita por conexões criptografadas (HTTPS). O acesso ao programa exige login e senha de cada usuário. A segurança do computador ou servidor onde o banco de dados fica é responsabilidade do escritório.</p>
+
+<h2>5. Retenção</h2>
+<p>Os dados ficam no banco local enquanto o escritório mantiver o programa e os registros. O escritório pode apagar registros pelo programa ou excluir a pasta de dados a qualquer momento.</p>
+
+<h2>6. Direitos do titular</h2>
+<p>Pela LGPD, o titular pode pedir confirmação, acesso, correção, anonimização, portabilidade e eliminação dos seus dados. Como os dados ficam sob controle do escritório que usa o programa, o pedido deve ser feito ao escritório; podemos ajudar pelo contato abaixo.</p>
+
+<h2>7. Contato</h2>
+<p>Responsável pelo Gestor Jurídico: <a href="mailto:dgarpiedits@gmail.com">dgarpiedits@gmail.com</a></p>
+
+<h2>8. Alterações</h2>
+<p>Esta política pode ser atualizada. A data da última atualização fica no topo da página.</p>
+</main>
+<footer>© 2026 Gestor Jurídico · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></footer>
+</body></html>
